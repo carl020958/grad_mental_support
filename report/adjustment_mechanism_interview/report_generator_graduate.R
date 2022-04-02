@@ -45,10 +45,6 @@ par <-
   mutate(date = lubridate::as_date(stringr::str_sub(적응기제_면담일, 1, 10))) %>% 
   filter(date > lubridate::today()-1)
 
-# par <- data.frame(Name = "김찬미0376")
-# par <- 
-#   par %>% filter(Name %in% c('정혜은1183'))
-
 # generate report
 for(i in 1:length(par$Name)) {
   parID <- par$Name[i]
