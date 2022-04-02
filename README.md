@@ -13,6 +13,6 @@ AI기반 on-device 심리 서비스
 - 시간 데이터 전처리: lubridate
 - 시각화: plotly, highcharter, kableExtra, formattable
 - 대시보드화: rmarkdown, flexdashboard
-- API: googlesheets4, googledrive, google(감정분석), mailR
+- API: googlesheets4, googledrive, google(감정분석)
 
 ---
