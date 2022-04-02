@@ -6,7 +6,7 @@ pacman::p_load('flexdashboard', 'tidyverse', 'plotly', 'highcharter')
 # -------------
 # 수검자 세팅
 # -------------
-# parID <- '강예지2021'
+# parID <- '홍길동1234'
 parName <- substr(parID, 1, nchar(parID)-4)
 
 # ------------
