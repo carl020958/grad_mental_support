@@ -472,7 +472,7 @@ par <-
             smtp         = list(host.name = 'smtp.naver.com',         # 메일서버 연동 정보
                                 port = 587,
                                 user.name = 'psy_test@naver.com',
-                                passwd = 'erfolgreich10!!',
+                                passwd = ''***************',
                                 ssl = TRUE),
             encoding     = 'utf-8',                                   # 인코딩(고정값)
             html = TRUE,
@@ -502,7 +502,7 @@ for(i in 1:length(par$email)){
             smtp         = list(host.name = 'smtp.naver.com',         # 메일서버 연동 정보
                                 port = 587,
                                 user.name = 'psy_test@naver.com',
-                                passwd = 'erfolgreich10!!',
+                                passwd = ''***************',
                                 ssl = TRUE),
             encoding     = 'utf-8',                                   # 인코딩(고정값)
             authenticate = TRUE,                                      # 인증사용 여부(고정값)
